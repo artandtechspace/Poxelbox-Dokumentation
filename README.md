@@ -4,6 +4,17 @@ Die Poxelbox ist ein Modulares **36-Boxen LED-System**, welches über das WS2812
 
 Mithilfe von eigenen Kontrollern kann man auf dieser LedWand verschiedene Retro-Spiele spielen.
 
+## Repos
+Hier ist der einfachheitshalber eine listung aller Repositorys, welche aktuell zur Proxelbox gehören:
+
+|Name|Beschreibung|
+|-|-|
+|[Dokumentation](https://github.com/artandtechspace/Poxelbox-Dokumentation)|Dieses Repository mit der Hauptdokumentation über das gesamte Projekt|
+|[Controller-Adapter](https://github.com/artandtechspace/Poxelbox-Controller-Adapter)|Software für den Controller-Adapter|
+|[Haupt-Software](https://github.com/artandtechspace/Poxelbox)|Software, welche die Spiele/Animation etc. bereitstellt und sozusagen das Hirn ist.|
+|[Java-Config-Tool](https://github.com/artandtechspace/Poxelbox-Configtool-Java)|Java-application zur Konfiguration der Poxelbox|
+|[Web-Config-Tool](https://github.com/artandtechspace/Poxelbox-Configtool-Web)|Webapp zur Konfiguration der Poxelbox|
+
 ## Übersicht
 
 Der Poxelbox-Aufbau sieht so aus:
