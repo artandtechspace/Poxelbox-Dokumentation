@@ -133,8 +133,6 @@ Dazu muss nur der `Advanced Mode` aktiviert werden und in der sich öffnenden Se
 
 Im gegensatz zum Web-Config-Tool muss das Javatool selber installiert haben und die Schnittstelle der `Haupt-Software (3)` angeben. Nach der Verbindung kann man dann die Einstellungen bearbeiten.
 
-#### TODO: Bild preview / Info
-
 ## Konfiguration der Haupt-Software
 Wie oberhalb bereits beschrieben kann man über verschiedene Tools die Haupt-Software konfigurieren.
 
