@@ -129,9 +129,11 @@ Dazu muss nur der `Advanced Mode` aktiviert werden und in der sich öffnenden Se
 ### Java-Config Tool (6)
 [Hier](https://github.com/artandtechspace/Poxelbox-Configtool-Java) findet mand as Github-Repo des Java-Config-Tool's
 
+**DEPRECATED: Weitere Nutzung nicht empfohlen**
+
 ![Webtool-Preview](media/pictures/Javatool_preview.png)
 
-Im gegensatz zum Web-Config-Tool muss das Javatool selber installiert haben und die Schnittstelle der `Haupt-Software (3)` angeben. Nach der Verbindung kann man dann die Einstellungen bearbeiten.
+Im gegensatz zum Web-Config-Tool muss das Javatool selber installiert werden und die Schnittstelle der `Haupt-Software (3)` angeben sein. Nach der Verbindung kann man dann die Einstellungen bearbeiten. Aufgrund dieses Nachteils wird das Java-Config-Tool nicht mehr weiterentwickelt.
 
 ## Konfiguration der Haupt-Software
 Wie oberhalb bereits beschrieben kann man über verschiedene Tools die Haupt-Software konfigurieren.
@@ -157,9 +159,9 @@ In der Produktionsumgebung, also mit der Poxelbox-hardware, kommuniziert der `Co
 *Diese Eigenschaft heißt aufgrund von früheren Planungen Esp-Baud und nicht Controller-Adapter-Baud (Legacy)*
 
 #### Use test scene?
-Zum testen der Poxelbox und zur Fehlersuche gibt es diesen Modus. Er startet nicht das Hauptprogram mit den Spielen und Animationen, sondern läuft nur eine Animation durch, welche sich von unten nach oben aufbaut.
+Zum testen der Poxelbox und zur Fehlersuche gibt es diesen Modus. Er startet nicht das Hauptprogram mit den Spielen und Animationen. Sondern es läuft nur eine Animation durch, die Reihen von unten nach oben aufbaut, welche von links nach rechts mit Rot, Grün oder Blau aufgefüllt werden.
 
-Dies wird genutzt um zu schauen, ob die Verkabelung der Box korrekt erfolgt ist.
+Zum Beispiel kann sie genutzt werden um die Verkabelung der Boxen zu Prüfen.
 
 #### Use old WS2812B-Schema?
 Im Verbunde mit der obrigen Einstellung wird hier festgelegt welches der beiden Ansteuerungssysteme genutzt werden soll.
