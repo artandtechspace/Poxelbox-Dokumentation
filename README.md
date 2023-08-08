@@ -163,17 +163,38 @@ Zum testen der Poxelbox und zur Fehlersuche gibt es diesen Modus. Er startet nic
 
 Zum Beispiel kann sie genutzt werden um die Verkabelung der Boxen zu Prüfen.
 
-#### Use old WS2812B-Schema?
-Im Verbunde mit der obrigen Einstellung wird hier festgelegt welches der beiden Ansteuerungssysteme genutzt werden soll.
-
-![Ansteuerungssystem](media/Poxelbox_Ansteuerung.svg)
-
-Der Nachteil des alten Systems ist, dass man die Poxelbox-Reihen immer abwechseln Umgedreht und Nicht-Umgedreht aufbauen musste. Dies kann beim neuen Vernachlässigt werden.
-
 #### Wall-Size (X/Y):
 Diese beiden Einstellungen geben an wie viele von den Poxelboxen, **nicht Pixeln, Boxen** aufgebaut sind. X ist die Breite, Y ist die Höhe.
+
+#### Flip each Box over Y-Axis or X-Axis:
+Zur Korrigiert die Ansteuerung der Boxen.
+Wenn die Boxen anders gedreht sind als in den Beispiel der Sektion `Aufbau der Poxelboxen
+` kann mit diesen Schaltern die X/Y-Orientierung der Boxen algemein geändert werden.
 
 ### Spiele und Animationen
 Für alle Spiele und Animationen kann man einstellen ob diese aktiviert sind oder nicht. Nicht aktivierte Spiele/Animationen werden im Hauptmenu der Software nicht angezeigt und können somit nicht geladen werden.
 
 Hilfreich, wenn man die Poxelbox in einer größe aufbaut, welche von einem der Spiele/Animationen nicht unterstützt wird.
+
+
+## Aufbau der Poxelboxen
+Die Boxen der Poxelboxen müssen eine Rechteckige Box ergeben.
+Die Poxelboxen können beliebig rotiert werden, solange alle gleich ausgerichtet sind.
+
+Die Standartrotationen und Datenkabel-Verkabelung sind auf folgenden Bildern anzuschauen:
+
+**Die folgenden Ansichten sind von Hinten auf die Poxelbox geschaut**
+
+![Verkabelung_Vertikal](media/Poxelbox_Verkabelung_Vertikal.svg)
+
+![Verkabelung_Horizontal](media/Poxelbox_Verkabelung_Horizontal.svg)
+
+Zur Referenz stehen hier außerdem noch die Ports:
+
+![Poxelbox-Ports](media/Poxelbox_Box_Ports.svg)
+
+Sollten die Boxen in einer anderen Orientierung aufgebaut sein, können diese über die Konfig gedreht werden. Mehr dazu in der Sektion `Konfiguration der Haupt-Software` oberhalb.
+
+Der Anschlusspunkt des RaspberryPi (Daten-Eingang) ist bei jedem Aufbau der Boxen immer unten Rechts.
+
+*Es ist darauf zu achten, dass jede Box mit Energie/Power versorgt wird. Hierbei muss allerdings keine Reihenfolge bei den Boxen eingehalten werden.*
